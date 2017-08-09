@@ -11,6 +11,7 @@ public class TripAdvisor
 
     public double calculateCostPerMile()
     {
+        // RoadTrippedCar does not need to be instantiated, due to it's availability of static methods:
         return (costOfRentalCar / RoadTrippedCar.getOdometer()) + (gasCostPerGallon / RoadTrippedCar.calculateAverageMPG());
     }
 }
