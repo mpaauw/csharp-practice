@@ -20,7 +20,7 @@ public class Bible : Book
 
     public double timeToReadInSeconds(int numPages, double secondsPerPage, int fontSize)
     {
-        return (isTranslated) ? (numPages * secondsPerPage) + (secondsPerPage / fontSize) * complexityFactor : int.MaxValue;
+        return (isTranslated) ? (numPages * secondsPerPage) + (secondsPerPage / fontSize) * complexityFactor : double.MaxValue;
     }
 }
 
